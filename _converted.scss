@@ -1,0 +1,63 @@
+
+// Converted Variables
+
+$Alert-paddingX: $g-gutter !default;
+$Alert-paddingY: $g-space !default;
+$Alert-boxShadow: 0 !default;
+$Alert-border: 1px solid transparent !default;
+$Alert-borderRadius: $g-borderRadius !default;
+$Alert-fill: $g-gray-10 !default;
+$Alert-success-color: $g-success-dark !default;
+$Alert-success-fill: $g-success-light !default;
+$Alert-success-border: 1px solid transparent !default;
+$Alert-notice-color: $g-notice-dark !default;
+$Alert-notice-fill: $g-notice-light !default;
+$Alert-notice-border: 1px solid transparent !default;
+$Alert-warning-color: $g-warning-dark !default;
+$Alert-warning-fill: $g-warning-light !default;
+$Alert-warning-border: 1px solid transparent !default;
+$Alert-error-color: $g-error-dark !default;
+$Alert-error-fill: $g-error-light !default;
+$Alert-error-border: 1px solid transparent !default;
+
+
+/*　sircus-components-alert
+======================================== */
+.Alert {
+  box-sizing: border-box;
+  padding-top: $Alert-paddingY;
+  padding-right: $Alert-paddingX;
+  padding-left: $Alert-paddingX;
+  border: $Alert-border;
+  border-radius: $Alert-borderRadius;
+  background-color: $Alert-fill;
+  box-shadow: $Alert-boxShadow;
+}
+
+
+.Alert.is-success {
+  color: $Alert-success-color;
+  border: $Alert-success-border;
+  background-color: $Alert-success-fill;
+}
+
+
+.Alert.is-notice {
+  color: $Alert-notice-color;
+  border: $Alert-notice-border;
+  background-color: $Alert-notice-fill;
+}
+
+
+.Alert.is-warning {
+  color: $Alert-warning-color;
+  border: $Alert-warning-border;
+  background-color: $Alert-warning-fill;
+}
+
+
+.Alert.is-error {
+  color: $Alert-error-color;
+  border: $Alert-error-border;
+  background-color: $Alert-error-fill;
+}

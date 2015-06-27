@@ -1,0 +1,65 @@
+:root {
+  --Alert-paddingX: var(--g-gutter);
+  --Alert-paddingY: var(--g-space);
+  --Alert-boxShadow: 0;
+  --Alert-border: 1px solid transparent;
+  --Alert-borderRadius: var(--g-borderRadius);
+  --Alert-fill: var(--g-gray-10);
+
+  --Alert-success-color: var(--g-success-dark);
+  --Alert-success-fill: var(--g-success-light);
+  --Alert-success-border: 1px solid transparent;
+
+  --Alert-notice-color: var(--g-notice-dark);
+  --Alert-notice-fill: var(--g-notice-light);
+  --Alert-notice-border: 1px solid transparent;
+
+  --Alert-warning-color: var(--g-warning-dark);
+  --Alert-warning-fill: var(--g-warning-light);
+  --Alert-warning-border: 1px solid transparent;
+
+  --Alert-error-color: var(--g-error-dark);
+  --Alert-error-fill: var(--g-error-light);
+  --Alert-error-border: 1px solid transparent;
+}
+
+/*　sircus-components-alert
+======================================== */
+.Alert {
+  box-sizing: border-box;
+  padding-top: var(--Alert-paddingY);
+  padding-right: var(--Alert-paddingX);
+  padding-left: var(--Alert-paddingX);
+  border: var(--Alert-border);
+  border-radius: var(--Alert-borderRadius);
+  background-color: var(--Alert-fill);
+  box-shadow: var(--Alert-boxShadow);
+}
+
+
+.Alert.is-success {
+  color: var(--Alert-success-color);
+  border: var(--Alert-success-border);
+  background-color: var(--Alert-success-fill);
+}
+
+
+.Alert.is-notice {
+  color: var(--Alert-notice-color);
+  border: var(--Alert-notice-border);
+  background-color: var(--Alert-notice-fill);
+}
+
+
+.Alert.is-warning {
+  color: var(--Alert-warning-color);
+  border: var(--Alert-warning-border);
+  background-color: var(--Alert-warning-fill);
+}
+
+
+.Alert.is-error {
+  color: var(--Alert-error-color);
+  border: var(--Alert-error-border);
+  background-color: var(--Alert-error-fill);
+}

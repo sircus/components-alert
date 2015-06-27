@@ -1,0 +1,31 @@
+{
+  "name": "sircus-components-alert",
+  "description": "Base module for the Sircus Alert component.",
+  "version": "0.0.0",
+  "homepage": "http://sircus.github.io",
+  "keywords": [
+    "scalable",
+    "design",
+    "css",
+    "cssnext",
+    "rwd"
+  ],
+  "author": {
+    "name": "Yasuyuki Enomoto",
+    "url": "http://blivesta.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sircus/components-alert.git"
+  },
+  "scripts": {
+    "build": "css2scss ./index.css ./_converted.scss"
+  },
+  "dependencies": {
+    "sircus-global-property": "^0.2.0"
+  },
+  "devDependencies": {
+    "sircus-process-css2scss": "^0.2.0"
+  }
+}
