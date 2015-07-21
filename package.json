@@ -1,6 +1,6 @@
 {
   "name": "sircus-components-alert",
-  "description": "Base module for the Sircus Alert component.",
+  "description": "CSS module for the Sircus Alert component.",
   "version": "0.0.0",
   "homepage": "http://sircus.github.io",
   "keywords": [
